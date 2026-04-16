@@ -1,0 +1,15 @@
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\bin\Debug\net8.0\TopicFlowBot.Application.deps.json
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\bin\Debug\net8.0\TopicFlowBot.Application.dll
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\bin\Debug\net8.0\TopicFlowBot.Application.pdb
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\bin\Debug\net8.0\TopicFlowBot.Domain.dll
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\bin\Debug\net8.0\TopicFlowBot.Domain.pdb
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.csproj.AssemblyReference.cache
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.AssemblyInfoInputs.cache
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.AssemblyInfo.cs
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.csproj.CoreCompileInputs.cache
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlo.3A417FE8.Up2Date
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.dll
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\refint\TopicFlowBot.Application.dll
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\TopicFlowBot.Application.pdb
+C:\repos\TopicFlowBot\backend\src\TopicFlowBot.Application\obj\Debug\net8.0\ref\TopicFlowBot.Application.dll

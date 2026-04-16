@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: topicflowbot-api
+    runtime: docker
+    repo: https://github.com/<your-org>/<your-repo>
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://+:8080
+      - key: ConnectionStrings__Postgres
+        fromDatabase:
+          name: topicflowbot-postgres
+          property: connectionString
+      - key: Telegram__BotToken
+        sync: false
+
+databases:
+  - name: topicflowbot-postgres
+    databaseName: topicflow
+    user: topicflow
