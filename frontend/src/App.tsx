@@ -31,18 +31,23 @@ export function App() {
   }, [user, setFavorites]);
 
   useEffect(() => {
+    const mainButton = tg?.MainButton;
+    if (!mainButton) {
+      return;
+    }
+
     const onMainButtonClick = () => {
       sendDataToBot({ selectedTopicIds, userId: user?.id });
     };
-    tg.MainButton.setText("Отправить в бота");
-    tg.MainButton.onClick(onMainButtonClick);
+    mainButton.setText("Отправить в бота");
+    mainButton.onClick(onMainButtonClick);
     if (selectedTopicIds.length > 0) {
-      tg.MainButton.show();
+      mainButton.show();
     } else {
-      tg.MainButton.hide();
+      mainButton.hide();
     }
     return () => {
-      tg.MainButton.offClick(onMainButtonClick);
+      mainButton.offClick(onMainButtonClick);
     };
   }, [selectedTopicIds, user?.id]);
 
